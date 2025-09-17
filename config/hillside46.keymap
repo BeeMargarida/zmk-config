@@ -74,7 +74,7 @@
 &kp DELETE  &kp EXCL         &kp AT        &kp HASH   &kp DOLLAR           &kp PERCENT                                          &kp CARET           &kp AMPS              &kp ASTRK          &kp LPAR      &kp RPAR          &trans
 &trans      &kp PT_N1        &kp PT_N2     &kp PT_N3  &kp PT_N4            &kp PT_N5                                            &kp PT_N6           &kp PT_N7             &kp PT_N8          &kp PT_N9     &kp PT_N0         &none
 &trans      &kp PT_QUESTION  &kp PT_MINUS  &kp PLUS   &kp PT_LEFT_BRACKET  &kp PT_LEFT_BRACE  &none                     &none   &kp PT_RIGHT_BRACE  &kp PT_RIGHT_BRACKET  &kp PT_UNDERSCORE  &kp PT_EQUAL  &kp PT_C_CEDILLA  &none
-                                                      &trans               &trans             &trans  &trans    &trans  &trans  &trans              &trans
+                                                      &trans               &trans             &trans  &trans    &trans  &trans  &kp RIGHT_ALT       &kp RIGHT_META
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
