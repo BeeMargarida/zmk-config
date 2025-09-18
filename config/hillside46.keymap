@@ -30,11 +30,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            require-prior-idle-ms = <150>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <80>;
             quick-tap-ms = <175>;
             hold-trigger-key-positions = <14 15 16 19 20 21>;
-            hold-trigger-on-release;
             flavor = "balanced";
         };
     };
@@ -71,10 +70,10 @@
  */
 
             bindings = <
-&kp DELETE  &kp EXCL         &kp AT        &kp HASH   &kp DOLLAR           &kp PERCENT                                          &kp CARET           &kp AMPS              &kp ASTRK          &kp LPAR      &kp RPAR          &trans
-&trans      &kp PT_N1        &kp PT_N2     &kp PT_N3  &kp PT_N4            &kp PT_N5                                            &kp PT_N6           &kp PT_N7             &kp PT_N8          &kp PT_N9     &kp PT_N0         &none
-&trans      &kp PT_QUESTION  &kp PT_MINUS  &kp PLUS   &kp PT_LEFT_BRACKET  &kp PT_LEFT_BRACE  &none                     &none   &kp PT_RIGHT_BRACE  &kp PT_RIGHT_BRACKET  &kp PT_UNDERSCORE  &kp PT_EQUAL  &kp PT_C_CEDILLA  &none
-                                                      &trans               &trans             &trans  &trans    &trans  &trans  &kp RIGHT_ALT       &kp RIGHT_META
+&kp DELETE  &kp EXCL   &kp AT        &kp HASH     &kp DOLLAR           &kp PERCENT                                          &kp CARET           &kp AMPS              &kp ASTRK          &kp LPAR      &kp RPAR          &trans
+&trans      &kp PT_N1  &kp PT_N2     &kp PT_N3    &kp PT_N4            &kp PT_N5                                            &kp PT_N6           &kp PT_N7             &kp PT_N8          &kp PT_N9     &kp PT_N0         &none
+&trans      &kp GRAVE  &kp PT_MINUS  &kp PT_PLUS  &kp PT_LEFT_BRACKET  &kp PT_LEFT_BRACE  &none                     &tog 4  &kp PT_RIGHT_BRACE  &kp PT_RIGHT_BRACKET  &kp PT_UNDERSCORE  &kp PT_EQUAL  &kp PT_C_CEDILLA  &none
+                                                  &trans               &trans             &trans  &trans    &trans  &trans  &kp RIGHT_ALT       &kp RIGHT_META
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -110,6 +109,15 @@
             sensor-bindings =
                 <&inc_dec_kp PG_UP PG_DN>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        gaming {
+            bindings = <
+&trans          &kp Q  &kp W  &kp E  &kp R   &kp T                                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F   &kp G                                     &trans  &trans  &kp K   &kp L   &trans  &trans
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V   &kp B   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
