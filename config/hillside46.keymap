@@ -66,10 +66,10 @@
  */
 
             bindings = <
-&kp ESC         &kp Q  &kp W                            &kp E                       &kp R                          &kp T                                                   &kp Y  &kp U                             &kp I                         &kp O                               &kp P         &kp BSPC
-&kp TAB         &kp A  &home_row_mod_left LEFT_SHIFT S  &home_row_mod_left LCTRL D  &home_row_mod_left LEFT_ALT F  &kp G                                                   &kp H  &home_row_mods_right RIGHT_ALT J  &home_row_mods_right RCTRL K  &home_row_mods_right RIGHT_SHIFT L  &kp SEMI      &kp PT_DOUBLE_QUOTES
-&kp LEFT_SHIFT  &kp Z  &kp X                            &kp C                       &kp V                          &kp B         &kp PT_TILDE                  &caps_word  &kp N  &kp M                             &kp COMMA                     &kp DOT                             &kp PT_ACUTE  &kp PT_APOSTROPHE
-                                                                                    &kp LGUI                       &kp LEFT_ALT  &kp SPACE     &mo 1    &mo 3  &kp ENTER   &mo 2  &kp RSHIFT
+&kp ESC         &kp Q  &kp W                            &kp E                       &kp R                          &kp T                                                     &kp Y  &kp U                             &kp I                         &kp O                               &kp P         &kp BSPC
+&kp TAB         &kp A  &home_row_mod_left LEFT_SHIFT S  &home_row_mod_left LCTRL D  &home_row_mod_left LEFT_ALT F  &kp G                                                     &kp H  &home_row_mods_right RIGHT_ALT J  &home_row_mods_right RCTRL K  &home_row_mods_right RIGHT_SHIFT L  &kp PT_SLASH  &kp PT_DOUBLE_QUOTES
+&kp LEFT_SHIFT  &kp Z  &kp X                            &kp C                       &kp V                          &kp B         &kp PT_TILDE                  &kp PT_MINUS  &kp N  &kp M                             &kp COMMA                     &kp DOT                             &kp PT_ACUTE  &kp PT_APOSTROPHE
+                                                                                    &kp LGUI                       &kp LEFT_ALT  &kp SPACE     &mo 1    &mo 3  &kp ENTER     &mo 2  &kp RSHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -85,10 +85,10 @@
  */
 
             bindings = <
-&kp DELETE  &kp PT_EXCL   &kp PT_AT     &kp HASH     &kp DOLLAR           &kp PERCENT                                          &kp PT_CARET        &kp PT_AMPS           &kp PT_ASTRK       &kp PT_LEFT_PARENTHESIS  &kp PT_RIGHT_PARENTHESIS  &trans
-&trans      &kp PT_N1     &kp PT_N2     &kp PT_N3    &kp PT_N4            &kp PT_N5                                            &kp PT_N6           &kp PT_N7             &kp PT_N8          &kp PT_N9                &kp PT_N0                 &none
-&trans      &kp PT_GRAVE  &kp PT_MINUS  &kp PT_PLUS  &kp PT_LEFT_BRACKET  &kp PT_LEFT_BRACE  &none                     &tog 4  &kp PT_RIGHT_BRACE  &kp PT_RIGHT_BRACKET  &kp PT_UNDERSCORE  &kp PT_EQUAL             &kp PT_C_CEDILLA          &none
-                                                     &trans               &trans             &trans  &trans    &trans  &trans  &kp RIGHT_ALT       &kp RIGHT_SHIFT
+&kp DELETE  &kp PT_EXCL      &kp PT_AT     &kp HASH          &kp DOLLAR           &kp PERCENT                                             &kp PT_CARET             &kp PT_AMPS               &kp PT_ASTRK      &kp PT_EQUAL         &kp PLUS          &trans
+&trans      &kp PT_QUESTION  &kp PT_ACUTE  &kp PT_GRAVE      &kp PT_LEFT_BRACE    &kp PT_RIGHT_BRACE                                      &kp PT_LEFT_PARENTHESIS  &kp PT_RIGHT_PARENTHESIS  &kp PT_LESS_THAN  &kp PT_GREATER_THAN  &kp PT_C_CEDILLA  &none
+&trans      &trans           &kp PT_PIPE   &kp PT_BACKSLASH  &kp PT_LEFT_BRACKET  &kp PT_RIGHT_BRACKET  &none                     &tog 4  &trans                   &trans                    &trans            &trans               &trans            &none
+                                                             &trans               &trans                &trans  &trans    &trans  &trans  &kp RIGHT_ALT            &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -104,10 +104,10 @@
  */
 
             bindings = <
-&trans  &kp PT_PIPE       &kp PT_SLASH         &kp PT_BACKSLASH  &none         &none                                    &kp C_VOLUME_UP    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans
-&trans  &trans            &kp LEFT_SHIFT       &kp LEFT_CONTROL  &kp LEFT_ALT  &trans                                   &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans
-&trans  &kp PT_LESS_THAN  &kp PT_GREATER_THAN  &kp LC(PT_SLASH)  &none         &none   &trans                   &trans  &trans             &trans    &trans    &trans     &trans         &trans
-                                                                 &trans        &trans  &trans  &mo 3    &trans  &trans  &trans             &trans
+&trans  &trans     &trans          &trans            &trans        &trans                                      &kp C_VOLUME_UP    &kp HOME   &kp UP     &kp END    &kp PAGE_UP    &trans
+&trans  &trans     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans                                      &kp C_VOLUME_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PAGE_DOWN  &trans
+&trans  &kp PT_N1  &kp PT_N2       &kp PT_N3         &kp PT_N4     &kp PT_N5  &trans                   &trans  &kp PT_N6          &kp PT_N7  &kp PT_N8  &kp PT_N9  &kp PT_N0      &trans
+                                                     &trans        &trans     &trans  &mo 3    &trans  &trans  &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
