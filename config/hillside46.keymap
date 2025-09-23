@@ -106,7 +106,7 @@
             bindings = <
 &trans  &kp PT_PIPE       &kp PT_SLASH         &kp PT_BACKSLASH  &none         &none                                    &kp C_VOLUME_UP    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans
 &trans  &trans            &kp LEFT_SHIFT       &kp LEFT_CONTROL  &kp LEFT_ALT  &trans                                   &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans
-&trans  &kp PT_LESS_THAN  &kp PT_GREATER_THAN  &none             &none         &none   &trans                   &trans  &trans             &trans    &trans    &trans     &trans         &trans
+&trans  &kp PT_LESS_THAN  &kp PT_GREATER_THAN  &kp LC(PT_SLASH)  &none         &none   &trans                   &trans  &trans             &trans    &trans    &trans     &trans         &trans
                                                                  &trans        &trans  &trans  &mo 3    &trans  &trans  &trans             &trans
             >;
 
