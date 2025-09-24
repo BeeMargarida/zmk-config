@@ -85,7 +85,7 @@
  */
 
             bindings = <
-&kp DELETE  &kp PT_EXCL      &kp PT_AT     &kp HASH          &kp DOLLAR           &kp PERCENT                                             &kp PT_CARET             &kp PT_AMPS               &kp PT_ASTRK      &kp PT_EQUAL         &kp PLUS          &trans
+&kp DELETE  &kp PT_EXCL      &kp PT_AT     &kp HASH          &kp DOLLAR           &kp PERCENT                                             &kp PT_CARET             &kp PT_AMPS               &kp PT_ASTRK      &kp PT_EQUAL         &kp PT_PLUS       &trans
 &trans      &kp PT_QUESTION  &kp PT_ACUTE  &kp PT_GRAVE      &kp PT_LEFT_BRACE    &kp PT_RIGHT_BRACE                                      &kp PT_LEFT_PARENTHESIS  &kp PT_RIGHT_PARENTHESIS  &kp PT_LESS_THAN  &kp PT_GREATER_THAN  &kp PT_C_CEDILLA  &none
 &trans      &trans           &kp PT_PIPE   &kp PT_BACKSLASH  &kp PT_LEFT_BRACKET  &kp PT_RIGHT_BRACKET  &none                     &tog 4  &trans                   &trans                    &trans            &trans               &trans            &none
                                                              &trans               &trans                &trans  &trans    &trans  &trans  &kp RIGHT_ALT            &kp RIGHT_SHIFT
