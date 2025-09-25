@@ -33,7 +33,7 @@
             tapping-term-ms = <180>;
             require-prior-idle-ms = <100>;
             quick-tap-ms = <175>;
-            hold-trigger-key-positions = <6 7 9 8 10 23 11 22 37 36 35 20 21 34 33 19 32 18 31 44 45 42 43>;
+            hold-trigger-key-positions = <6 7 9 8 10 23 11 22 37 36 35 20 21 34 33 19 32 18 31 44 45 42 43 14 27 28>;
             flavor = "balanced";
             hold-trigger-on-release;
         };
