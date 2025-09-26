@@ -104,9 +104,9 @@
  */
 
             bindings = <
-&trans  &trans  &trans          &trans            &trans        &trans                                   &kp C_VOLUME_UP    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans
-&trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans                                   &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans
-&trans  &trans  &trans          &trans            &trans        &trans  &trans                   &trans  &trans             &trans    &trans    &trans     &trans         &trans
+&trans  &trans  &trans          &trans            &trans        &trans                                   &kp C_VOLUME_UP    &kp HOME        &kp UP      &kp END    &kp PAGE_UP    &trans
+&trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans                                   &kp C_VOLUME_DOWN  &kp LEFT        &kp DOWN    &kp RIGHT  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans          &trans            &trans        &trans  &trans                   &trans  &kp C_PAUSE        &kp C_PREVIOUS  &kp C_NEXT  &trans     &trans         &trans
                                                   &trans        &trans  &trans  &mo 4    &trans  &trans  &trans             &trans
             >;
 
